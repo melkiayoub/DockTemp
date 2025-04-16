@@ -18,5 +18,5 @@ yargs(hideBin(process.argv))
     }
   )
   .demandCommand(1)
-  .strict() // Optional: disallow unknown commands
+  .strict() 
   .parse();
