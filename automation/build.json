@@ -1,4 +1,7 @@
 {
-  "ServiceName": "DevOpsCourse",
-  "ServiceType": "Frontend"
+  "ServiceName": "Auth-Service",
+  "ServiceType": "Backend",
+  "Dockerfile": {
+    "PreInstallCommands": ["COPY myFile myFile"]
+  }
 }
